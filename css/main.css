@@ -1,0 +1,305 @@
+#container {
+	width: 1920px;
+	background-color: white;
+	margin:	0 auto;
+/*	border: solid red 1px;
+*/}
+
+.wrapper {
+	width: 100%;
+	background-color: black;
+/*	margin:	0 auto;
+	border: solid red 1px;*/
+}
+
+.clear {
+  clear: both;
+}
+
+
+#header {
+	background-color: white;
+	width: 1420px;
+	height: 200px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#hdrLogo {
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+nav {
+	float: right;
+}
+
+.navItems {
+	display: inline-block;
+	background-color: #cc3333;
+	float: left;
+	font-family: 'Times New Roman, serif';
+	font-size: 24px;
+	color: white;
+	width: 200px;
+	text-align: center;
+	padding: 20px 10px;
+	margin-top: 140px;
+	margin-left: -10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	display: block;
+}
+
+p {
+	font-family: 'Times New Roman, serif';
+	font-size: 32px;
+	color: black;
+}
+
+.imgFloatLft {
+	float: left;
+	margin: 50px 50px 50px 0;
+}
+
+/*a:hover {
+	background-color: #ffd700;
+	text-decoration: none;
+	color: black;
+	height: 300px;
+}*/
+
+
+#partOne {
+	background-color: black;
+	margin; auto;
+	border-top: 20px solid #cc3333;
+	border-bottom: 20px solid #cc3333;
+	width: 1920px;
+	height: 670px;
+    position: relative;
+}
+
+#partOne::before {
+	animation: fade-in 10s forwards;
+	animation-delay: 0.5s;
+	background: url('../images/part1_bgImage.jpg') no-repeat;
+	content: '';
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+}
+
+audio::before {
+	animation: fade-in 1s forwards;
+	animation-delay: 0s;
+	content: '';
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+}
+
+#l2_headers {
+	border-top: 20px solid #cc3333;
+	border-bottom: 20px solid #cc3333;
+	width: 100%;
+}
+
+#partTwo {
+	background-color: black;
+	margin; auto;
+	border-top: 20px solid #cc3333;
+	border-bottom: 20px solid #cc3333;
+	width: 1920px;
+	height: 670px;
+    position: relative;
+    display: none;
+}
+
+#partTwo::before {
+	animation: fade-in 10s forwards;
+	animation-delay: 0.5s;
+	background: url('../images/part2_bgImage.jpg') no-repeat;
+	content: '';
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+}
+
+#family {
+	width: 1420px;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+#hdrBoxRight {
+	float: right;
+	width: 575px;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-top: 100px;
+	margin-right: 250px;
+	margin-bottom: 20px;
+	padding: 75px;
+	position: relative;
+}
+
+#hdrBoxLeft {
+	float: right;
+	width: 575px;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-top: 100px;
+	margin-right: 250px;
+	margin-bottom: 20px;
+	padding: 75px;
+	position: relative;
+}
+
+.boxBtn {
+	float: right;
+	background-color: #cc3333;
+	color: white;
+	font-family: 'Times New Roman, serif';
+	font-size: 18px;
+	padding: 20px;
+	margin-bottom: -75px;
+}
+
+.divSlider {
+	width: 650px;
+	float:	right;
+	margin-top: 0;
+	margin-bottom: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	position: relative;	
+}
+
+.slider1 {
+	margin: auto;
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.slider2 {
+	margin: auto;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+a.selectSlide {
+	text-decoration: none;
+}
+
+#buckets {
+	width: 1420px;
+	margin: auto;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+#bucketLeft {
+	display: inline-block;
+	float: left;
+	padding: 40px;
+	width: 600px;
+	background-color: #cc3333;
+	font-family: 'Times New Roman, serif';
+	font-size: 32px;
+	color: white;
+	overflow: hidden;
+}
+
+#bucketRight {
+	display: inline-block;
+	float: right;
+	padding: 40px;
+	width: 600px;
+	background-color: #cc3333;
+	font-family: 'Times New Roman, serif';
+	font-size: 32px;
+	color: white;
+	overflow: hidden;
+}
+
+h2 {
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 37px;
+	color: white;
+}
+
+.L2 {
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 37px;
+	color: #cc3333;
+}
+
+.bucketType {
+	font-family: 'Times New Roman, serif';
+	font-size: 32px;
+	color: white;
+}
+
+.learn {
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 24px;
+	color: white;
+}
+
+footer {
+	width: 1920px;
+	background-color: #cc3333;
+	padding: 50px 0 0 0;
+}
+
+#social {
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#copyright {
+	width: 1870px;
+	margin: auto;
+	background-color: black;
+	padding: 25px;
+	overflow: hidden;
+}
+
+#legal {
+	font-family: 'Arial';
+	font-size: 20px;
+	color: white;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}
