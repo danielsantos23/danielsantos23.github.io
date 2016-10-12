@@ -156,6 +156,12 @@ header nav a {
 		z-index: 1000;
 }
 
+	#family p {
+	font-family: 'Times New Roman, serif';
+	font-size: 1.25em;
+	color: black;
+}
+
 }
 
 /*nav {
