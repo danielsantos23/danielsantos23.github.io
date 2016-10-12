@@ -149,7 +149,7 @@ header nav a {
 
 	#mobile-nav a {
 		display: inline-block;
-		font-size: 1em;
+		font-size: 1.25em;
 		text-align: center;
 		margin: 0 auto;
 		position: relative;
@@ -223,7 +223,7 @@ header nav a {
 	padding: 3%;
 	background-color: black;
 	font-family: 'Times New Roman, serif';
-	font-size: 26px;
+	font-size: 2em;
 	color: #cc3333;
 	width: 90%;
 	float: none;
@@ -456,7 +456,7 @@ a.selectSlide {
 	width: 40%;
 	background-color: #cc3333;
 	font-family: 'Times New Roman, serif';
-	font-size: 26px;
+	font-size: 2em;
 	color: white;
 	position: relative;
 	overflow: hidden;
@@ -469,7 +469,7 @@ a.selectSlide {
 	width: 40%;
 	background-color: #cc3333;
 	font-family: 'Times New Roman, serif';
-	font-size: 26px;
+	font-size: 2em;
 	color: white;
 	position: relative;
 	overflow: hidden;
