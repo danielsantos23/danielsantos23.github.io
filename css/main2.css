@@ -186,7 +186,8 @@ header nav a {
 	animation-delay: 0.5s;
 	background: url('../images/part1_bgImage.jpg') no-repeat;
 	content: '';
-	background-size: contain;
+/*	background-size: contain;*/
+	background-position: -150px 0px;
 	/*height: 100%;*/
 	opacity: 0;
 	position: absolute;
@@ -198,7 +199,8 @@ header nav a {
 	animation: fade-in 10s forwards;
 	animation-delay: 0.5s;
 	background: url('../images/part1_bgImage.jpg') no-repeat;
-	background-size: contain;
+/*	background-size: contain;*/
+	background-position: -150px 0px;
 	/*background-size: 50% auto;*/
 	content: '';
 	/*height: 100%;*/
@@ -229,6 +231,12 @@ header nav a {
 	margin-bottom: 2%;
 	position: relative;
 	}
+
+	p {
+	font-family: 'Times New Roman, serif';
+	font-size: 1.5em;
+	color: black;
+}
 
 }
 
